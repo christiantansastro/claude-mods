@@ -1,0 +1,1 @@
+{ "name": "cold-chat-warning", "version": "0.1.0", "description": "Warns when a session has been idle over 60 minutes, so a cold cache doesn't re-read the whole history", "types": "./types/index.d.ts" }

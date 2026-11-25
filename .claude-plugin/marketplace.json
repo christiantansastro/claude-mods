@@ -1,0 +1,9 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "Christian Tansastro" },
+  "plugins": [
+    { "name": "effort-picker", "source": "./effort-picker", "description": "Recommends an effort level (Low to Max) for each prompt, and can apply it" },
+    { "name": "usage-meter", "source": "./usage-meter", "description": "Context-window meter that prompts a handoff to a new chat at 80-85%" },
+    { "name": "cold-chat-warning", "source": "./cold-chat-warning", "description": "Warns when a session has been idle over 60 minutes" }
+  ]
+}

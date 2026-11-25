@@ -1,0 +1,1 @@
+{ "name": "usage-meter", "version": "0.1.0", "description": "Shows context-window fill and prompts a handoff to a new chat at 80-85%", "types": "./types/index.d.ts" }
