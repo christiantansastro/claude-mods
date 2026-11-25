@@ -4,7 +4,7 @@ Three Claude Code mods that cut wasted credits and keep long sessions sharp. Eac
 
 | Mod | What it does |
 | --- | --- |
-| **effort-picker** | Recommends an effort level (Low, Medium, High, Extra High, Max) for each prompt from what you asked. Toggle **Auto** (or `/effort-picker on`) to run each prompt at the recommended level. |
+| **effort-picker** | Recommends an effort level (Low, Medium, High, Extra High, Max) for each prompt from what you asked. **Auto** is on by default: each prompt runs at the recommended level. Turn it off with the **Auto** button or `/effort-picker off` to get recommendations only. |
 | **usage-meter** | A context-window bar (`Context ████████░░ 82% · 164k/200k`). At 80% and 85% it prompts a handoff: **Hand off** (or `/handoff`) asks Claude for a brief to paste into a new chat. |
 | **cold-chat-warning** | When a session has been idle over 60 minutes, warns that the prompt cache has expired and your next message re-reads the whole history, with a **Hand off** option. |
 

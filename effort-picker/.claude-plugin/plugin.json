@@ -1,1 +1,1 @@
-{ "name": "effort-picker", "version": "0.1.0", "description": "Recommends an effort level (Low to Max) for each prompt, and can apply it, so easy tasks don't burn credits", "types": "./types/index.d.ts" }
+{ "name": "effort-picker", "version": "0.2.0", "description": "Recommends an effort level (Low to Max) for each prompt, and can apply it, so easy tasks don't burn credits", "types": "./types/index.d.ts" }

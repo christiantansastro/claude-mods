@@ -4,7 +4,7 @@ import type { Register } from 'claude-code'
 import type { Level, Pick } from '../types'
 
 const pick = atom({ plugin: 'effort-picker', key: 'pick' } as const, null, { shape: 'pick-1' })
-const isAuto = atom({ plugin: 'effort-picker', key: 'isAuto' } as const, false)
+const isAuto = atom({ plugin: 'effort-picker', key: 'isAuto' } as const, true)
 const isHidden = atom({ plugin: 'effort-picker', key: 'isHidden' } as const, false)
 
 const LABEL: Record<Level, string> = {
